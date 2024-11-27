@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Beerbar 1180</title>
+
+    <style>
+      .article {
+        background-color: floralwhite;
+      }
+
+      .section {
+        background-color: lightgrey;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img
+              id="header-img"
+              width="125"
+              src="https://static.wixstatic.com/media/5bb923_e82075a8183444929100d211943bc019~mv2.jpg"
+              alt="Logo du Beerbar"
+      />
+      <h1>Le Beerbar 1180</h1>
+    </header>
+    <main>
+      <section class="section" id="menu">
+        <h2>Menu</h2>
+        <article class="article" id="patatas">
+          <img
+                  width="150"
+                  src="https://www.allrecipes.com/thmb/6xR2piWrDQGCk7H_Ta_VUalGVc0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/230569-chef-johns-patatas-brazas-ddmfs-1X2-0919-727f79a4ce1e410c8f5f125eae034d0e.jpg"
+                  alt="Image of a patatas"
+          />
+          <h3>1. Patatas Beerbar</h3>
+          <p>
+            Patates au four servies avec une sauce tomatee piquante et de l'aioli<br>
+            <b>Prix - </b><i>12 Euros</i>
+          </p>
+        </article>
+        <article class="article" id="poulet">
+          <img
+                  width="150"
+                  src="https://admin.mimp.app/assets/img/categories/custom/beer-bar--112-chicken-wings-bitterballen-cochonnaille-fromage.jpg"
+                  alt="Image of a poulet"
+          />
+          <h3>2. Poulet Beerbar</h3>
+          <p>
+            Petits cubes de poulet avec une petite salade grecque, du tzatziki,
+            du pain pitta.<br>
+            <b>Prix - </b><i>18 Euros</i>
+          </p>
+        </article>
+        <article class="article" id="pluma">
+          <img
+                  width="150"
+                  src="https://cdn.shopify.com/s/files/1/0021/6878/2929/files/59382848.png?v=1677597799"
+                  alt="Image of a pluma"
+          />
+          <h3>3. Pluma Iberica</h3>
+          <p>
+            Filet de cochon noir delicieux avec du gros sel et de la salade<br>
+            <b>Prix - </b><i>25 Euros</i>
+          </p>
+        </article>
+      </section>
+      <section class="section" id="order">
+        <h2>Place Your Order</h2>
+        <form>
+          <label for="item">Quelle est votre commande ? (1, 2 ou 3) </label>
+          <input type="number" id="item" min="0" max="3" required>
+          <br><br>
+          <label for="supp">Voulez-vous un supplement ?</label>
+          <br>
+          <input id="supp" type="checkbox">Salade
+          <input type="checkbox">Patates au four
+          <input type="checkbox">Riz
+          <br><br>
+          <label for="txt">Avez-vous des remarques a faire</label>
+          <br>
+          <textarea id="txt" rows="5" cols="25" maxlength="200" placeholder="Votre remarque ici"></textarea>
+          <br>
+          <input type="submit" value="Go To Checkout">
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Fait avec amour par <i><b>BillyWoodbaker</b></i></p>
+    </footer>
+  </body>
+</html>
